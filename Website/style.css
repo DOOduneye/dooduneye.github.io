@@ -1,0 +1,181 @@
+/* Top level styling */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+*::selection {
+    background-color: #FF5A5F;
+    color: black;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #494949;
+}
+
+/* Navagation Bar */
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+  }
+  
+li a {
+    color: #494949;
+    text-align: center;
+    padding-right: 20px;
+    text-decoration: none;
+  }
+
+nav {
+    margin: 0px;
+}
+
+/* Links */
+
+a {
+    color: #494949;
+    text-decoration: none; 
+}
+a:hover {
+    color: #a8a1a1;
+    text-decoration: underline;
+}
+
+
+.navagation-bar {
+    display: flex;
+    padding: 40px 30px 10px 30px;
+    text-align: left;
+    font-family: inter-regular;
+    justify-content: flex-end;
+}
+
+.name {
+ flex: 3;
+ padding-left: 20px;
+}
+
+.name-size {
+    font-size: xx-large
+}
+
+.link-size {
+    padding-top: 10px;
+    font-size: x-large;
+}
+
+.back-size {
+    font-size: x-large;
+}
+
+/* Main flexbox */
+
+.main {
+    display: flex;
+    margin-top: 10px;
+}
+
+/* Side bar */
+.side-bar {
+    display: flex;
+    font-size: 1.15vw;
+    flex-direction: column;
+    font-size: large;
+    color: #494949;
+    font-family: inter-light;
+    padding-left: 50px;
+}
+
+.side-bar-info {
+    padding-bottom: 8px;
+}
+
+.bar {
+    width: 180px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 80px;
+}
+
+.hobbies {
+    font-family: inter-regular;
+    margin-bottom: 5px;
+}
+
+/* Get to know me */
+
+.about-me {
+    font-family: inter-light;
+    text-align: justify; 
+    flex: 1;
+    overflow-wrap: break-word;
+    margin: 0px 120px 40px 40px;
+    flex:content;
+    font-size: 1.15vw;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column; 
+    margin-left: 20%;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.entry-title {
+    font-size: xx-large;
+    text-decoration: underline;
+    font-family: inter-bold;
+}
+
+.entry-date {
+    font-size: larger;
+    font-family: inter-light;
+    padding: 5px 0 5px 0px;
+}
+
+.entry-description {
+    font-size: large;
+    font-family: inter-light;
+}
+
+.blog-wrapper {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    padding-right:  100px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.blog-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-post-title {
+    font-family: inter-bold;
+    font-size: xx-large;
+}
+
+.blog-post {
+    overflow: break-word;
+}
+
+/* Working on media controls to improve responsivity */
+@media only screen and (max-width: 900px){
+    .navbar-inner{ 
+       display: none
+     }
+     .side-bar{ 
+        display: none
+      }
+      .about-me{ 
+        margin-left: 50px;
+    }
+  }
