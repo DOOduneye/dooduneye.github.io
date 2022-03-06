@@ -4,11 +4,6 @@
     padding: 0px;
 }
 
-*::selection {
-    background-color: #FF5A5F;
-    color: black;
-}
-
 body {
     background-color: #FFFFFF;
     color: #494949;
@@ -168,7 +163,7 @@ a:hover {
 }
 
 /* Working on media controls to improve responsivity */
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 1000px){
     .navbar-inner{ 
        display: none
      }
@@ -176,6 +171,8 @@ a:hover {
         display: none
       }
       .about-me{ 
-        margin-left: 50px;
+        margin: 0;
+        padding: 0;
+
     }
   }
