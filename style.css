@@ -18,7 +18,7 @@ ul {
 li {
     float: left;
   }
-  
+
 li a {
     color: #494949;
     text-align: center;
@@ -34,7 +34,7 @@ nav {
 
 a {
     color: #494949;
-    text-decoration: none; 
+    text-decoration: none;
 }
 a:hover {
     color: #a8a1a1;
@@ -106,7 +106,7 @@ a:hover {
 
 .about-me {
     font-family: inter-light;
-    text-align: justify; 
+    text-align: justify;
     flex: 1;
     overflow-wrap: break-word;
     margin: 0px 120px 40px 40px;
@@ -116,10 +116,12 @@ a:hover {
 
 .blog {
     display: flex;
-    flex-direction: column; 
-    margin-left: 20%;
+    flex-direction: column;
     overflow: hidden;
     margin-bottom: 40px;
+    margin-left: 25%;
+    margin-right: 25%;
+    justify-content: center;
 }
 
 .entry-title {
@@ -143,14 +145,16 @@ a:hover {
     display: flex;
     margin-top: 10px;
     justify-content: center;
-    padding-right:  100px;
+    /*padding-right:  100px;*/
     margin-left: 15%;
     margin-right: 15%;
 }
 
 .blog-container {
-    display: flex;
-    flex-direction: column;
+  font-family: inter-light;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2.8%;
 }
 
 .blog-post-title {
@@ -160,17 +164,26 @@ a:hover {
 
 .blog-post {
     overflow: break-word;
+    justify-content: left;
+}
+
+.blog-post-date {
+  text-decoration: underline;
+}
+
+#book-links:hover {
+  font-weight: bold;
 }
 
 /* Working on media controls to improve responsivity */
 @media only screen and (max-width: 1000px){
-    .navbar-inner{ 
+    .navbar-inner{
        display: none
      }
-     .side-bar{ 
+     .side-bar{
         display: none
       }
-      .about-me{ 
+      .about-me{
         margin: 0;
         padding: 0;
 
