@@ -22,7 +22,7 @@ li {
 li a {
     color: #494949;
     text-align: center;
-    padding-right: 20px;
+    padding-left: 20px;
     text-decoration: none;
   }
 
@@ -44,7 +44,9 @@ a:hover {
 
 .navagation-bar {
     display: flex;
-    padding: 40px 30px 10px 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 40px 0px 10px 0px;
     text-align: left;
     font-family: inter-regular;
     justify-content: flex-end;
@@ -52,7 +54,7 @@ a:hover {
 
 .name {
  flex: 3;
- padding-left: 20px;
+ /*padding-left: 20px;*/
 }
 
 .name-size {
@@ -71,8 +73,16 @@ a:hover {
 /* Main flexbox */
 
 .main {
-    display: flex;
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.main-info {
+  margin-left: 20%;
+  margin-right: 20%;
+  /*padding-right:  100px;*/
 }
 
 /* Side bar */
@@ -109,7 +119,7 @@ a:hover {
     text-align: justify;
     flex: 1;
     overflow-wrap: break-word;
-    margin: 0px 120px 40px 40px;
+  /*  margin: 0px 120px 40px 40px;*/
     flex:content;
     font-size: 1.15vw;
 }
@@ -118,8 +128,9 @@ a:hover {
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    margin-bottom: 40px;
-    margin-left: 25%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-left: 20%;
     margin-right: 25%;
     justify-content: center;
 }
@@ -163,7 +174,7 @@ a:hover {
 }
 
 .blog-post {
-    overflow: break-word;
+    overflow: auto;
     justify-content: left;
 }
 
