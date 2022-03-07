@@ -157,8 +157,8 @@ a:hover {
     margin-top: 10px;
     justify-content: center;
     /*padding-right:  100px;*/
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .blog-container {
@@ -176,6 +176,8 @@ a:hover {
 .blog-post {
     overflow: auto;
     justify-content: left;
+    text-align: justify;
+    font-size: 1.2em;
 }
 
 .blog-post-date {
@@ -197,6 +199,5 @@ a:hover {
       .about-me{
         margin: 0;
         padding: 0;
-
     }
   }
