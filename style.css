@@ -52,6 +52,10 @@ a:hover {
     justify-content: flex-end;
 }
 
+.hamburger {
+  display: none;
+}
+
 .name {
  flex: 3;
  /*padding-left: 20px;*/
@@ -199,5 +203,17 @@ a:hover {
       .about-me{
         margin: 0;
         padding: 0;
+    }
+    .main-info {
+      margin: 2%;
+      padding: 0;
+    }
+    .navagation-bar {
+      margin: 2%;
+    }
+    .hamburger {
+      /*
+      display: flex;
+      justify-content: flex-end;*/
     }
   }
