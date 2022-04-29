@@ -7,6 +7,8 @@
 body {
     background-color: #FFFFFF;
     color: #494949;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 /* Navagation Bar */
@@ -50,6 +52,8 @@ a:hover {
     text-align: left;
     font-family: inter-regular;
     justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: baseline;
 }
 
 .hamburger {
@@ -62,7 +66,7 @@ a:hover {
 }
 
 .name-size {
-    font-size: xx-large
+    font-size: xx-large;
 }
 
 .link-size {
@@ -178,10 +182,10 @@ a:hover {
 }
 
 .blog-post {
-    overflow: auto;
     justify-content: left;
     text-align: justify;
     font-size: 1.2em;
+    word-wrap: break-word;
 }
 
 .blog-post-date {
